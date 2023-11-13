@@ -1,0 +1,170 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #282a36;
+    color: #f8f8f2;
+    line-height: 1.6;
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+header {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: #eaeaea;
+        border-bottom: 2px solid black;
+        animation: fadeIn 2s ease-in;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #50fa7b;
+}
+
+a {
+    color: #8be9fd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff79c6;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #44475a;
+    color: #f8f8f2;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+pre {
+    background-color: #44475a;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    animation: slideIn 2s ease-in;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+table, th, td {
+    border: 1px solid #6272a4;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    background-color: #44475a;
+    color: #f8f8f2;
+    padding: 20px;
+    border-radius: 3px;
+    animation: fadeIn 2s ease-in;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #6272a4;
+    background-color: #282a36;
+    color: #f8f8f2;
+}
+
+input[type="submit"] {
+    background-color: #50fa7b;
+    color: #282a36;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+input[type="submit"]:hover {
+    background-color: #8be9fd;
+    color: #282a36;
+}
+
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+.mis-proyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    animation: slideIn 2s ease-in;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
